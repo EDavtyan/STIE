@@ -58,7 +58,25 @@ git clone https://github.com/EDavtyan/STIE.git
 
 ## Dependencies
 
-[List any dependencies for the package.]
+This project relies on several key Python libraries for data processing, visualization, and computation. To ensure compatibility and functionality, the following specific versions of each library are required:
+
+- **NumPy**: A fundamental package for scientific computing with Python, used for efficient operations on multi-dimensional arrays and matrices.
+- **Pandas**: An open-source data analysis and manipulation tool, crucial for handling and analyzing input data.
+- **Plotly**: An interactive graphing library for making interactive plots and dashboards.
+- **tqdm**: A fast, extensible progress bar for loops and command-line programs.
+- **SciPy**: Used for mathematical algorithms and convenience functions built on the NumPy extension of Python.
+- **Matplotlib**: A plotting library for creating static, interactive, and animated visualizations in Python.
+- **s3fs**: A Pythonic file interface to S3. It allows you to mount S3 buckets as if they were local files or directories.
+- **PySpark**: Provides an interface for Apache Spark, allowing for scalable, high-throughput processing of big data sets.
+
+To install these dependencies, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Please ensure you have a compatible Python version installed, preferably Python 3.8 or newer, as these libraries may not support earlier versions of Python.
+
 
 ## Example Usage
 
