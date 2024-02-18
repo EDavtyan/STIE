@@ -1,6 +1,6 @@
 # Sequential Testing for Interleaving Experiments (STIE)
 
-## Modified Description
+## Description
 
 STIE is a Python package designed to streamline the application of sequential testing methods, with a special emphasis
 on online interleaving experimentations. This suite amplifies the potential of interleaving experimentation by offering
